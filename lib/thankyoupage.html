@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Daniel Ramirez Portfolio</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./projects.html">Projects</a>
@@ -36,58 +36,43 @@
               <a class="nav-link" href="./aboutme.html">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+              <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container contact-form">
-      <div class="contact-image">
-        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
-      </div>
-      <form method="post">
-        <h3>Send Me A Message</h3>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-            </div>
-            <div class="form-group">
-              <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-            </div>
-            <div class="form-group">
-              <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-            </div>
-            <div class="form-group">
-              <input
-                href="./aboutme.html"
-                type="submit"
-                name="btnSubmit"
-                class="btnContact"
-                value="Send Message"
-                onclick="(function(){ window.location = 'thankyoupage.html'; return false; })();return false;"
-                onclick="(function(){ alert('Thank you! We\'ll be in touch'); return false; })();return false;"
-              />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px"></textarea>
+    <div class="side-by-side">
+      <div class="row">
+        <div class="column">
+          <div class="card" id="intro">
+            <div class="card-body">
+              <h5 class="card-title">Thank you!</h5>
+              <h6 class="card-subtitle mb-2 text-muted">I hope to have a response soon!</h6>
+              <p class="card-text">I look forward to helping you with your development needs.</p>
             </div>
           </div>
         </div>
-      </form>
+        <div class="column">
+          <div class="image-container">
+            <img src="../img/4-ContactLegoKeys.jpg" class="images" id="lego-man" alt="Lego man on keyboard" />
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="image-container">
+      <img src="../img/4-ContactLegoBuilding.jpg" alt="Building with Lego" class="lego-building" />
+    </div>
+    <br /><br />
     <footer class="footer">
       <div class="container text-center">
         <a href="https://github.com/danrezz" target="_blank"><i class="fa fa-github"></i></a>
         <a href="https://www.linkedin.com/in/daniel-ramirez-243b8ba8/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
         <a href="https://twitter.com/puchbear" target="_blank"><i class="fa fa-twitter"></i></a>
-        <a href="./comingsoon.html"><i class="fa fa-youtube-play"></i></a>
+        <a href="./lib/comingsoon.html"><i class="fa fa-youtube-play"></i></a>
         <a href="https://www.instagram.com/Puchbear/" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </footer>
-    <script src="./bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="./lib/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>
