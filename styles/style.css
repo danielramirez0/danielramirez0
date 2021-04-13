@@ -10,6 +10,14 @@
   width: 200px;
 }
 
+.coming-soon {
+  position: relative;
+  text-align: center;
+  margin: auto;
+  margin-top: 393px;
+  margin-bottom: 394px;
+}
+
 #intro {
   width: 18rem;
   position: relative;
