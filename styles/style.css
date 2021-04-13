@@ -28,35 +28,37 @@
   border-radius: 20%;
   border-style: none;
 }
+
 #selfie {
   width: 225px;
   position: relative;
   text-align: center;
   margin: auto;
-  margin-top: 50px;
-  margin-left: 10px;
+  margin-right: 50%;
   border-radius: 30%;
 }
 
 .card-link {
   margin: auto;
 }
+
 .column {
   flex: 50%;
-  width: 50%;
   padding-inline: 20px;
 }
 
 .side-by-side {
-  margin: 0 auto;
+  margin: auto;
 }
+
 .image-container {
   width: 100%;
   margin: auto;
+  margin-top: 50px;
 }
+
 .laptop {
   display: block;
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
@@ -68,9 +70,11 @@
   content: "";
   clear: both;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .footer {
+  width: 100%;
   background: #092b5e;
   padding: 10px 0;
 }
@@ -81,9 +85,57 @@
   border-right: 1px solid #c5c5c5;
   transition: all 0.5s ease;
 }
+
 .footer a:first-child {
   border-left: 1px solid #c5c5c5;
 }
+
 .footer a:hover {
   color: white;
+}
+
+.carousel-container {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.w-100 {
+  width: 696px !important;
+  height: 564px;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.carousel-control-prev-icon {
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+.carousel-description {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.carousel-caption {
+  width: 500px;
+  /* margin: auto; */
+  margin-top: 20px;
+  margin-left: 0;
+  color: black;
+  position: relative;
+  text-align: center;
+}
+
+.d-block {
+  display: flex;
+  min-width: none;
 }
