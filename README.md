@@ -1,4 +1,5 @@
-# PortfolioWebsite
+# Basic Portfolio
+
 # HTML/CSS practice by building a Portfolio Website
 
 ## A four-section portfolio webpage that follows HTML & CSS best practices
